@@ -1,0 +1,30 @@
+CODIGO MEDIA APROVADO X REPROVADO
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real N1, N2, N3, N4, MED
+
+		escreva ("\nInsira o primeira nota: ")
+		leia (N1)
+
+		escreva ("\nInsira o segunda nota: ")
+		leia (N2)
+
+		escreva ("\nInsira o primeira nota: ")
+		leia (N3)
+
+		escreva ("\nInsira o primeira nota: ")
+		leia (N4)
+
+		MED = (N1 + N2 + N3 + N4)/4
+
+		se (MED >= 7) {
+		escreva ("Aprovado")			
+		}
+		senao
+		escreva("Reprovado")		
+	}
+}
