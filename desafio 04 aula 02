@@ -1,0 +1,27 @@
+DESAFIO 04 AULA 02
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real	n1, n2, n3, n4, media
+
+		escreva ("Cálculo da média\n")
+
+		escreva ("Digite a primeira nota \n")
+		leia (n1)
+
+		escreva ("Digite a segunda nota \n")
+		leia (n2)
+
+		escreva ("Digite a terceira nota \n")
+		leia (n3)
+
+		escreva ("Digite a quarta nota \n")
+		leia (n4)
+
+		media = (n1 + n2 + n3 + n4)/4
+		escreva ("\n A média do aluno é " , media ," ")	
+	}
+}
