@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia nome
+		inteiro idade, ano
+		real altura
+
+		escreva ("\nSeu nome: ")
+		leia (nome)
+
+		escreva ("\nSua idade: ")
+		leia (idade)
+
+		escreva ("\nSua altura: ")
+		leia (altura)
+
+		escreva ("\nOlá \t", nome, "\tsua idade é:", idade, "\tsua altura é:" , altura)
+
+		ano = 2024 - idade
+		escreva ("\nSeu ano de nascimento é: ", ano)		
+	}
+}
